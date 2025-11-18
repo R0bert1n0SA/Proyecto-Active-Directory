@@ -1,0 +1,12 @@
+# =====================================================
+# PLANTILLA LDIF - MODIFICACIÓN DE UNIDAD ORGANIZATIVA
+# Plantilla para operaciones de modificación en OUs LDAP
+# =====================================================
+
+dn: ou={Identificador},dc=luthor,dc=corp
+changetype: modify
+{OP_ADD1}
+{OP_ADD2}
+{OP_REPLACE1}
+{OP_REPLACE2}
+{OP_DELETE}

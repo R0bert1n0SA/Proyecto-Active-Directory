@@ -1,0 +1,13 @@
+# =====================================================
+# PLANTILLA LDIF - MODIFICACIÓN DE USUARIO
+# Plantilla para operaciones de modificación en usuarios LDAP
+# =====================================================
+
+
+dn: uid={Identificador},dc=luthor,dc=corp
+changetype: modify
+{OP_ADD1}
+{OP_ADD2}
+{OP_REPLACE1}
+{OP_REPLACE2}
+{OP_DELETE}

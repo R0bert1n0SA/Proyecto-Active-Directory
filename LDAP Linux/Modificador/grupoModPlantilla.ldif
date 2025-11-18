@@ -1,0 +1,13 @@
+# =====================================================
+# PLANTILLA LDIF - MODIFICACIÓN DE GRUPO
+# Plantilla para operaciones de modificación en grupos LDAP
+# =====================================================
+
+# modificadorG.png - Plantilla de Modificación de Grupo
+dn: cn={Identificador},ou=Groups,dc=luthor,dc=corp
+changetype: modify
+{OP_ADD1}
+{OP_ADD2}
+{OP_REPLACE1}
+{OP_REPLACE2}
+{OP_DELETE}
